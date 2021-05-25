@@ -1,0 +1,21 @@
+{
+  "name": "real_react",
+  "version": "1.0.0",
+  "description": "react.development.js\r     react-dom.development.js\r     simple1.html\r     simple1.js",
+  "main": "react-dom.development.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "httpsgithub.comYallu201real_react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-react": "^7.13.13"
+  }
+}
