@@ -48,7 +48,7 @@ npm install @babel/core @babel/cli @babel/preset-react
 - npx로 babel 실행하여 js코드 컴파일
 
 ```
-npx babel --watch src --out-dir . --preset @babel/preset-react
+npx babel --watch src --out-dir . --presets @babel/preset-react
 ```
 
 ```
@@ -56,8 +56,8 @@ node_modules/.bin 경로의 binary 파일을 실행합니다.
 
 npx bable 실행 시 bable binary 파일이 없다면 바밸 페키지를 자동으로 설치합니다.(편의 기능)
 
---watch     : 파일이 변경될 때 마다 새로 컴파일 합니다.
-src         : src 폴더의 파일을 컴파일 합니다.
---out-dir . : 현재 경로로 컴파일합니다.
---preset    : 사용할 preset을 선택합니다.
+--watch      : 파일이 변경될 때 마다 새로 컴파일 합니다.
+src          : src 폴더의 파일을 컴파일 합니다.
+--out-dir .  : 현재 경로로 컴파일합니다.
+--presets    : 사용할 preset을 선택합니다.
 ```
